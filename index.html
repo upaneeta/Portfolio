@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="sty.css" />
+    
+  </head>
+  <body>
+    <main>
+      <header id="header">
+
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header" class="active">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About Me</a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Projects</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+          
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+                <h6 class="header-title ">Hey There!<br>I'm <span>Upaneeta Chakraborty</span> </h6>
+                <p class="text">
+                  ECE UNDERGRAD  |  ML ENTHUSIAST  |  FRONTEND DEVELOPER
+                </p>
+                <a href="#about" class="btn">Know More</a>
+            </div>
+            <div class="column-2 image">
+              <img src="Resources/about_photo(new4).jpg" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" >About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1 image">
+              <img src="Resources/Photo.jpg" class="z-index" alt="" />
+            </div>
+            <div class="column-2">
+              <h3 class="title-sm">Hello!</h3>
+              <p class="text">
+                I am currently pursuing my B Tech in ECE from Netaji Subhash Engineering College, Kolkata. I have done my schooling from Kendriya Vidyalaya No.1, Saltlake. I am a ML enthusiast and a frontend developer. I have a passion for competitive programming as well. I also do content writing. My hobbies include singing and watching movies.  
+              </p>
+            
+              <a href="https://drive.google.com/file/d/12lgWX_gAZAzltk3YAM-FAKrMy_SIUzy9/view?usp=sharing"target="_blank" class="btn" >Download CV  
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills section" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" >My Skills</h3>
+          </div>
+
+          <div class="skills">
+            <div class="skill html">
+              <h3 class="skill-title">HTML</h3>
+              <div class="skill-bar">
+                <div class="skill-progress_1" data-progress="90%"></div>
+              </div>
+            </div>
+            <div class="skill css">
+              <h3 class="skill-title">CSS</h3>
+              <div class="skill-bar">
+                <div class="skill-progress_2" data-progress="70%"></div>
+              </div>
+            </div>
+            <div class="skill js">
+              <h3 class="skill-title">JavaScript</h3>
+              <div class="skill-bar">
+                <div class="skill-progress_3" data-progress="90%"></div>
+              </div>
+            </div>
+            <div class="skill js">
+              <h3 class="skill-title">Bootstrap</h3>
+              <div class="skill-bar">
+                <div class="skill-progress_4" data-progress="80%"></div>
+              </div>
+            </div>
+            <div class="skill js">
+              <h3 class="skill-title">CPP</h3>
+              <div class="skill-bar">
+                <div class="skill-progress_5" data-progress="80%"></div>
+              </div>
+            </div>
+            <div class="skill js">
+              <h3 class="skill-title">C</h3>
+              <div class="skill-bar">
+                <div class="skill-progress_6" data-progress="80%"></div>
+              </div>
+            </div>
+            <div class="skill js">
+              <h3 class="skill-title">Python</h3>
+              <div class="skill-bar">
+                <div class="skill-progress_7" data-progress="80%"></div>
+              </div>
+            </div>
+            <div class="skill js">
+              <h3 class="skill-title">JavaScript</h3>
+              <div class="skill-bar">
+                <div class="skill-progress_8" data-progress="80%"></div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section class="project portfolio section" id="portfolio">
+        <div class="background-bg">
+        </div>
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" >Projects</h3>
+        </div>
+    <div class="box-container">
+      <div class="box portfolio__img">
+          <img src="Resources/Calculator.jpg" alt="">
+
+          <div class="portfolio__link">
+              <a href="https://github.com/upaneeta/Calculator" class="portfolio__link-name">View details</a>
+          </div>
+      </div>
+      <div class="box portfolio__img">
+          <img src="Resources/snake_game.jpg" alt="">
+
+          <div class="portfolio__link">
+              <a href="https://github.com/upaneeta/Snake-Game" class="portfolio__link-name">View details</a>
+          </div>
+      </div>
+      <div class="box portfolio__img">
+          <img src="Resources/randpass.jpg" alt="">
+
+          <div class="portfolio__link">
+              <a href="https://github.com/upaneeta/Random-Password-Generator" class="portfolio__link-name">View details</a>
+          </div>
+      
+      </div>
+      
+      <div class="box portfolio__img">
+          <img src="Resources/diceroller.jpg" alt="">
+
+          <div class="portfolio__link">
+              <a href="https://github.com/upaneeta/Dice-Roller" class="portfolio__link-name">View details</a>
+          </div>
+      </div>
+      <div class="box portfolio__img">
+          <img src="Resources/cartoon.jpg" alt="">
+
+          <div class="portfolio__link">
+              <a href="https://github.com/upaneeta/Pencil-Sketch-Cartoon-Image" class="portfolio__link-name">View details</a>
+          </div>
+      </div>
+      <div class="box portfolio__img">
+          <img src="Resources/cannyimg.jpg" alt="">
+
+          <div class="portfolio__link">
+              <a href="https://github.com/upaneeta/Canny-Edge-Detector" class="portfolio__link-name">View details</a>
+          </div>
+      </div>
+  </div>
+  </div>
+  </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-info">
+            <h3 class="title">Get in touch</h3>
+            <p class="text">
+              Want to contact me?
+            </p>
+            <div class="information-wrap">
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <p class="info-text">64,Commint Park, P.O-Panchasayar, Kolkata-700094</p>
+              </div>
+
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+                <p class="info-text">chakrabortyupaneeta19@gmail.com</p>
+              </div>
+
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <p class="info-text">9903609528</p>
+              </div>
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <p class="info-text">
+                  <a href="https://www.linkedin.com/in/upaneeta-chakraborty-9a0245195/">Upaneeta Chakraborty</a>
+
+                  </p>
+              </div>
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <p class="info-text">
+                  <a href="https://github.com/upaneeta">upaneeta</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3 class="title">Contact me</h3>
+            <div class="row">
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="Last Name"
+              />
+            </div>
+
+            <div class="row">
+              <input type="text" class="contact-input" placeholder="Phone" />
+              <input type="email" class="contact-input" placeholder="Email" />
+            </div>
+
+            <div class="row">
+              <textarea
+                name="message"
+                class="contact-input textarea"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <a href="#" class="btn">Send <i class="fas fa-paper-plane"></i> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+    <footer>
+      Created By Upaneeta Chakraborty
+      <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm"></h3>
+            <p class="text">
+            </p>
+            <div class="footer-input-wrap">
+              <input type="text" class="footer-input" placeholder="Feedback" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+  </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./js/app.js"></script>
+    <!--<script defer type="text/javascript" src="./js/app.js"></script>-->
+  </body>
+  </html>
